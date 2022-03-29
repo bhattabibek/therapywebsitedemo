@@ -1,0 +1,130 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+       
+        
+    }
+
+
+    header{
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 100px;
+        background:linear-gradient(180deg,#719ec5,#3e68dd),url(images/img.jpg);
+        background-size: 9000px 700px;
+        background-blend-mode: screen;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+   
+    .wave{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .container h1{
+        position: absolute;
+        top: 200px;
+      
+        color: #fff;
+        right: 200px;
+        
+    }
+
+    .container p{
+        position: absolute;
+        top: 270px;
+        right: 80px;
+        text-align: center;
+        line-height: 25px;
+        
+    }
+    span{
+        font-size: 50px;
+        color: coral;
+    }
+    nav{
+        background-color: crimson;
+    }
+    .menu-bar ul li{
+        display: inline-block;
+        list-style: none;
+        color: white;
+        
+    }
+    .menu-bar{
+        background-color: #123C69;
+        text-align: center;
+
+       
+    }
+.menu-bar ul li{
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+}
+.menu-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu-bar ul li:hover{
+    background-color: coral;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    border-radius: 3px;
+}
+
+.submenu{
+    display: none;
+    background-color: yellow;
+}
+
+.menu-bar ul li:hover .submenu{
+    display: block;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .submenu ul{
+    display: block;
+
+   
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0px 40px;
+}
+.main img{
+    width: 150px;
+    height: auto;
+}
+
+.social .fa-brands,.fa-solid{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-right: 30px;
+}
+.info{
+    background-color: #EDC7B7;
+    padding: 20px;
+    text-align: center;
+}
+.fa-facebook{
+    color: #3a5a97;
+}
+.fa-youtube
+{
+color: #C4302B;
+}
+.fa-envelope{
+    color: rgb(235, 123, 18);
+}
